@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body{
+    background-color: snow;
+    scroll-behavior: smooth;
+}
+
+nav {
+    background-color: #2a78f5;
+    font-family: "Macondo", serif;
+    color: white;
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav > div:first-child{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+nav > div:last-child{
+    font-family: 'sans-serif';
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    gap: 20px;
+}
+
+.nav-a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-a:hover, .nav-a:active{
+    color: rgb(227, 18, 18);
+}
